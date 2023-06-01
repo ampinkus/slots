@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- HTML head section -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- Linking external CSS file -->
+  </head>
+
+  <body>
+    <!-- HTML body section -->
+    <div class="container">
+      <!-- Container for the game -->
+      <div class="game-wrapper">
+        <!-- Wrapper for the game elements -->
+        <div class="slot-machine">
+          <!-- Slot machine section -->
+          <div class="message-container">
+            <!-- Container for the message -->
+            <div id="message">Bienvenido!</div>
+            <!-- Message element -->
+          </div>
+          <div class="column">
+            <!-- First column of boxes -->
+            <div class="box" id="box1"></div>
+            <!-- Box 1 -->
+            <div class="box central-box" id="box2"></div>
+            <!-- Box 2 (Central box) -->
+            <div class="box" id="box3"></div>
+            <!-- Box 3 -->
+          </div>
+          <div class="column">
+            <!-- Second column of boxes -->
+            <div class="box" id="box4"></div>
+            <!-- Box 4 -->
+            <div class="box central-box" id="box5"></div>
+            <!-- Box 5 (Central box) -->
+            <div class="box" id="box6"></div>
+            <!-- Box 6 -->
+          </div>
+          <div class="column">
+            <!-- Third column of boxes -->
+            <div class="box" id="box7"></div>
+            <!-- Box 7 -->
+            <div class="box central-box" id="box8"></div>
+            <!-- Box 8 (Central box) -->
+            <div class="box" id="box9"></div>
+            <!-- Box 9 -->
+          </div>
+        </div>
+        <div class="button-container">
+          <!-- Container for the spin button -->
+          <button onclick="spin()">SPIN</button>
+          <!-- Spin button -->
+        </div>
+        <div class="coins-container">
+          <!-- Container for the total coins message -->
+          <div id="coins">Total 0 monedas</div>
+          <!-- Total coins message element -->
+        </div>
+        <div class="result-box">
+          <p>3 figuras iguales: 100 monedas 🎉</p>
+          <p>2 figuras iguales: 10 monedas 😃</p>
+          <p>Todas diferentes: 0 monedas 😞</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Linking external JavaScript file -->
+  </body>
+</html>

@@ -1,0 +1,154 @@
+body {
+  /* CSS styling for the body */
+  margin: 0;
+  padding: 0;
+  background-color: darkgrey;
+  font-family: Arial, sans-serif; /* Set the font type to Arial */
+  font-weight: bolder;
+}
+
+.container {
+  /* CSS styling for the container */
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-wrapper {
+  /* CSS styling for the game wrapper */
+  width: 600px; /* Set a fixed width for the game wrapper */
+  margin: 0 auto; /* Center the game wrapper horizontally */
+  border: 10px solid darkslategray;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  background-color: lightgoldenrodyellow;
+}
+
+.coins-container {
+  /* CSS styling for the coins container */
+  text-align: center;
+  margin-top: 20px;
+}
+
+#coins {
+  /* CSS styling for the coins message */
+  font-size: 24px;
+}
+
+.slot-machine {
+  /* CSS styling for the slot machine section */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.column {
+  /* CSS styling for the column of boxes */
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.box {
+  /* CSS styling for the box */
+  width: 100px;
+  height: 100px;
+  border: 5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  margin-bottom: 5px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+
+.central-box {
+  /* CSS styling for the central box */
+  width: 100px;
+  height: 100px;
+  border: 5px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  margin-bottom: 5px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+
+.message-container {
+  /* CSS styling for the message container */
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 500px;
+  height: 50px;
+  border: 5px solid darkslategray;
+  padding: 10px;
+  border-radius: 10px; /* Add border-radius for rounded corners */
+  background-color: white;
+}
+
+#message {
+  /* CSS styling for the message element */
+  font-size: 36px;
+}
+
+.button-container {
+  /* CSS styling for the button container */
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  /* CSS styling for the button */
+  font-size: 1.5em;
+  border: 4px solid darkslategrey;
+  padding: 10px 20px;
+  margin-right: 15px;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: lightblue;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coins-container {
+  /* CSS styling for the coins container */
+  text-align: center;
+  margin-top: 20px;
+  border: 3px solid darkslategrey; /* Add a 1px black border */
+  padding: 10px;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  color: black; /* Set the text color to blue */
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
